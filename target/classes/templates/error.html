@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" 
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" 
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+      crossorigin="anonymous">
+</head>
+<body>
+
+            
+           
+<div class="card text-center">
+  <div class="card-header">
+    <h1><font color="red"> ERROR! </font></h1>
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Wrong User Name Or Password</h5>
+ 
+    <a th:href = "@{/}"
+       class="btn btn-outline-danger">Go To LMS Log In</a>  </div>
+  <div class="card-footer text-muted">
+     Hello everyone this is created by Mohd Aqib Minai.
+  </div>
+</div>    
+</body>
+</html>
